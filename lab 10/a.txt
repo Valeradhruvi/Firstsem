@@ -1,4 +1,0 @@
-Java 
-is 
-OOP
-Language
