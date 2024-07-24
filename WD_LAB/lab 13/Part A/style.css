@@ -1,0 +1,92 @@
+body{
+    padding: 10px;
+}
+.header{
+    background-color: rgb(128, 128, 128, 0.6);
+    width: 100%;
+    height: 200px;
+    border-bottom: 1mm solid green;
+}
+.logo img{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p{
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+}
+.options{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.op{
+    color: white;
+    margin-top: -150px;
+    height: 30px;
+    width: 70px;
+}
+
+.div2{
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    border: 0.3mm solid black;
+}
+.div2 img{
+    padding: 10px;
+}
+.para .para1{
+    margin-top: -190px;
+    width: 800px ;
+    float: right;
+    height: 150px;
+    padding: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    margin-top: -90px;
+}
+.but{
+    background-color: rgb(0, 255, 255, 0.5);
+    border-radius: 40px;
+    border: 0.5mm solid black;
+    height: 40px;
+    width: 100px;
+}
+
+.content{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
+.c1{
+    width: 65%;
+}
+.p1{
+    margin-top: -30px;
+}
+.p2{
+    margin-top: -80px;
+}
+.p3{
+    margin-top: -50px;
+    font-weight: lighter;
+    color: black;
+}
+
+.c2{
+    margin-top: -300px;
+    float: right;
+    margin-right: 10px;
+    width: 32%;
+}

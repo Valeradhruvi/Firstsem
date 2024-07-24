@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+    <style>
+        *{box-sizing: border-box;}
+        .sidebar{
+            
+            float: left;
+            height: 500px;
+            width: 16%;
+            padding:10px;
+            margin-top: 10px;   
+        }
+        h2{
+            color: green;
+            font-family: cursive;
+        }
+        .c1{
+            background-color: red;
+            float: left;
+            padding-left: 60px;
+            width: 82%;
+            height: 100px;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        .c2{
+            background-color: blue;
+            height: 400px;
+            float: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 20%;
+        }
+        .c3{
+            background-color: yellow;
+            width: 43%;
+            height: 300px;
+            margin-top: 10px;
+            margin-left: 10px;
+            float: left;
+        }
+        .c4{
+            background-color: darkgreen;
+            width: 17.5%;
+            height: 290px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .c5{
+            background-color: yellow;
+            width: 61.3%;
+            height: 100px;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 720px){
+            .sidebar div{
+                margin-left: -20px;
+            }
+        }
+        @media (max-width: 610px){
+            .c1{
+                float: inline-end;
+                width: 75%;
+            }
+            .c2{
+                margin-left: 50px;
+            }
+            .c3{
+                width: 33%;
+            }
+            .c4{
+                float: inline-end;
+            }
+            .c5{
+                float: inline-end;
+                width: 53.2%;
+            }
+        }
+        @media (max-width: 590px){
+            .c5{
+                width: 52.5%;
+            }
+        }
+        @media (max-width: 555px){
+            .c3{
+                width: 34%;
+            }
+            .c4{
+                width: 15%;
+            }
+            .c5{
+                width: 51.8%;
+            }
+        }
+        @media (max-width: 505px){
+            .c3{
+                width: 33%;
+            }
+            .c4{
+                width: 15%;
+            }
+            .c5{
+                width: 50.9%;
+            }
+        }
+        @media (max-width: 460px){
+            .c3{
+                width: 31.5%;
+            }
+            .c4{
+                width: 14%;
+            }
+            .c5{
+                width: 49.5%;
+            }
+        }
+        @media (max-width: 440px){
+            .c5{
+                width: 49%;
+            }
+        }
+        @media (max-width: 410px){
+            .c3{
+                width: 30%;
+            }
+            .c4{
+                width: 13.5%;
+            }
+            .c5{
+                width: 47.5%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="padding: 10px;">
+    <div style="background-color: black; height: 20px; width: 100%;"></div>
+    <div>
+        <div class="sidebar">
+             <div align="center">
+                <h2>HTML</h2>
+                <h2>Website</h2>
+                <h2>Layout</h2></div>
+        </div>
+        <div class="c1" align="center">
+                Header
+        </div>
+        <div class="c2" align="center">
+                Navigation
+        </div>
+        <div class="c3" align="center">
+                content
+        </div>
+        <div class="c4" align="center">
+                Sidebar
+        </div>
+        <div class="c5" align="center">
+            
+        </div>
+    </div><br>
+    <div style="background-color: black; width: 100%; height: 20px; float: left;">
+
+    </div>
+    </div>
+</body>
+</html>

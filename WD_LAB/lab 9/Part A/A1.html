@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <Style>
+        .animated{
+            
+            height: 40px;
+            width: 40px;
+            animation-name: slido;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-direction: reverse;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+        @keyframes slido{
+            from{
+                background-color: yellow;
+                margin-left: 100%;
+            }
+            to{
+                background-color: red;
+                margin-left: 0%;
+            }
+        }
+    </Style>
+</head>
+<body>
+    <div class="animated">
+    </div>
+</body>
+</html>

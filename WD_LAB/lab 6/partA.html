@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maindiv{
+            width:100% ;
+        }
+        @media (max-width: 720px){
+            .maindiv{
+                margin-left: 10%;
+                width: 80%;
+                color: crimson;
+                height: 150px;
+            }
+            .div1{
+                background-color: red;
+            }
+            .div2{
+                width: 50%;
+            }
+            .div3{
+                width: 50%;
+            }
+            .div4{
+                width: 50%;
+             
+            }
+        }
+        @media (max-width: 540px){
+            .div2{
+                width: 100%;
+            }
+            .div3{
+                width: 100%;
+            }
+            .div4{
+                width: 100%;
+            }
+        }
+        @media (max-width: 390px){
+            .div1{
+                width: 50% !important;
+                margin-top: 100px;
+                background-color: red !important;
+            }
+        }
+        @media (max-width: 540px){
+            .div1{
+                background-color: red !important;
+                width: 100%;
+                margin-top: 2%;
+                float: none !important;
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 540px){
+            .footer{
+                margin-top: 100px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="maindiv" style="background-color: cornflowerblue; height: 300px;">
+    page
+    <div style="background-color: crimson;" class="header-div">HEADER</div>
+    <div style="background-color: darkgoldenrod;" class="header-div2">
+        content
+        <br>
+        <div class="div1" style="float: right; margin-left:50px; margin-right: 10px; width: 200px; background-color: black; color: white; height: 100px;">
+            Entry
+        </div>
+        <div class="div2" style="background-color: black; margin-right: 30%; color: white;">
+            Enter</div>
+        <br>
+        <div class="div3" style="background-color: black; margin-right: 30%; color:white;">
+            Entry</div>
+        <br>
+        <div class="div4" style="background-color: black ; margin-right: 30%; color: white;">
+            Entry</div>
+            
+        <br>
+        <br>
+        <div class="footer" style="background-color: blue;"><address>@Darshan University-Rajkot
+        </address></div>
+        
+    </div>
+    </div>
+</body>
+</html>

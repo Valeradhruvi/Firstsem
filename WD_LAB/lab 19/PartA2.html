@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="h1 text-center">Covid-19 Vaccine Registration Form</div><hr>
+        <div class="row">
+            <div class="col-6 text-center h5">First Name</div>
+            <div class="col-6"><input type="text" placeholder="Enter First Name"></div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center h5 mt-3">Last Name</div>
+            <div class="col-6 mt-3"><input type="text" placeholder="Enter Last Name"></div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center h5 mt-3">Aadhar Number</div>
+            <div class="col-6 mt-3"><input type="number" placeholder="Enter Aadhar number"></div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center h5 mt-3">Vaccine Name</div>
+            <div class="col-6 mt-3">
+                <div class="dropdown">
+                    <button class="btn border border-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Vaccine name
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">ABC</a></li>
+                      <li><a class="dropdown-item" href="#">XYZ</a></li>
+                      <li><a class="dropdown-item" href="#">Something else</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center h5 mt-3">Vaccine Center Name</div>
+            <div class="col-6 mt-3">
+                <div class="dropdown">
+                    <button class="btn border border-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Vaccine Center
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">ABC</a></li>
+                      <li><a class="dropdown-item" href="#">XYZ</a></li>
+                      <li><a class="dropdown-item" href="#">Something else</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center mt-2 h5">Date-of-Dose</div>
+            <div class="col-6 mt-2"><input type="date" placeholder=""></div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center mt-2 h5">Dose Number</div>
+            <div class="col-6 mt-2"><input type="text" placeholder=""></div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-end mt-4"><div class="col-12">
+                <button class="btn border border-dark type="submit">Submit form</button>
+              </div>
+            </div>
+            <div class="col-6 mt-4 text-start">
+                <div class="col-12">
+                    <button class="btn border border-dark" type="reset">Reset form</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

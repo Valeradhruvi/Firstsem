@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moving Div</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .moving-div {
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      position: absolute;
+      animation-duration: 4s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes moveRight {
+      0% { left: 0; top: 50vh; }
+      25% { left: calc(100vw - 50px); top: 50vh; }
+      50% { left: calc(100vw - 50px); top: calc(100vh - 50px); }
+      75% { left: 0; top: calc(100vh - 50px); }
+      100% { left: 0; top: 50vh; }
+    }
+
+    @keyframes moveBottom {
+      0% { left: 50vw; top: 0; }
+      25% { left: 50vw; top: calc(100vh - 50px); }
+      50% { left: calc(100vw - 50px); top: calc(100vh - 50px); }
+      75% { left: calc(100vw - 50px); top: 0; }
+      100% { left: 50vw; top: 0; }
+    }
+
+    @keyframes moveLeft {
+      0% { left: calc(100vw - 50px); top: 50vh; }
+      25% { left: 0; top: 50vh; }
+      50% { left: 0; top: 0; }
+      75% { left: calc(100vw - 50px); top: 0; }
+      100% { left: calc(100vw - 50px); top: 50vh; }
+    }
+
+    @keyframes moveTop {
+      0% { left: 50vw; top: calc(100vh - 50px); }
+      25% { left: 50vw; top: 0; }
+      50% { left: 0; top: 0; }
+      75% { left: 0; top: calc(100vh - 50px); }
+      100% { left: 50vw; top: calc(100vh - 50px); }
+    }
+
+    .move-right { animation-name: moveRight; }
+    .move-bottom { animation-name: moveBottom; }
+    .move-left { animation-name: moveLeft; }
+    .move-top { animation-name: moveTop; }
+  </style>
+</head>
+<body>
+
+<div class="moving-div move-right"></div>
+
+</body>
+</html>

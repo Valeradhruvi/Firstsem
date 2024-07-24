@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container rounded">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <img src="./bootstrap-logo-shadow.png" style="height: 150px; width: 150;">
+            </div>
+            <div class="col-12 h3 d-flex justify-content-center">Checkout form</div>
+            <div class="col-12 text-center">
+                Below is an example form Built entirely with Bootstrap's form control. Eachrequired form group has a validation state that can be triggered by attempting to submit the form without completing it.
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="row mt-4">
+                    <div class="col-12 h4">Billing Address</div>
+                </div>
+                <div class="container bg-secondary-subtle pt-5 ps-3 rounded-4" style="height: 1100px;">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">First Name</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Last Name</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text bg-secondary" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="col-12">
+                            <label for="exampleFormControlInput1" class="form-label">Email address(optional)</label>
+                            <input type="email" class="form-control" placeholder="name@example.com">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" placeholder="1234 Main St">
+                        </div> 
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-6">
+                            <label for="inputCity" class="form-label">Country</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-4">
+                            <label class="form-label">State</label>
+                            <select  class="form-select">
+                              <option selected>Choose here</option>
+                              <option>MH</option>
+                              <option>GJ</option>
+                              <option>UP</option>
+                              <option>Delhi</option>
+                            </select>
+                        </div>
+                        <div class="col-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div><hr>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input border border-dark" type="checkbox">
+                            <label class="form-check-label">
+                              Shipping address is same as by billing address.
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input border border-dark" type="checkbox">
+                            <label class="form-check-label">
+                              Save this information for next time.
+                            </label>
+                        </div><hr>
+
+                        <div class="row">
+                            <div class="col-12 h4">Payment</div>
+                        </div>
+                        <div class="form-check ms-3 border">
+                            <input class="form-check-input border border-dark" type="radio" name="radio" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Credit Card
+                            </label>
+                        </div>
+                        <div class="form-check ms-3 border">
+                            <input class="form-check-input border border-dark" type="radio" name="radio">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Debit card
+                            </label>
+                        </div>
+                        <div class="form-check ms-3 border">
+                            <input class="form-check-input border border-dark" type="radio" name="radio">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Paypal
+                            </label>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Name on card</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Credit card number</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Expiration date</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">CVV</label>
+                            <input type="text" class="form-control">
+                        </div><hr>
+
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center">
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-primary mb-3">Continue to checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row mt-4 ms-3">
+                    <div class="col-10 h4">Your cart</div>
+                    <div class="col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-3-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z"/>
+                          </svg>
+                    </div>
+                </div>
+                <div class="container bg-secondary-subtle p-2 rounded-4" style="height: 400px;">
+                    <div class="row ms-2 me-2 bg-light">
+                        <div class="col-10 mt-3 ">
+                            Product name<br>
+                            <span class="text-secondary">Brief information</span>
+                        </div>
+                        <div class="col-2 mt-3">$12</div>
+                    </div>
+                    <div class="row ms-2 me-2 mt-3 bg-light">
+                        <div class="col-10 mt-3 ">
+                            Seconf Product<br>
+                            <span class="text-secondary">Brief information</span>
+                        </div>
+                        <div class="col-2 mt-3">$5</div>
+                    </div>
+                    <div class="row ms-2 me-2 mt-3 bg-light">
+                        <div class="col-10 mt-3 ">
+                            Third item<br>
+                            <span class="text-secondary">Brief information</span>
+                        </div>
+                        <div class="col-2 mt-3">$3</div>
+                    </div>
+                    <div class="row ms-2 me-2 mt-3 bg-light">
+                        <div class="col-10 mt-3 text-success">
+                            Promo code<br>
+                            <span class="text-secondary">Brief information</span>
+                        </div>
+                        <div class="col-2 mt-3 text-success">-$5</div>
+                    </div>
+                    <div class="row ms-2 me-2 mt-3 bg-light">
+                        <div class="col-10 mt-3 ">
+                            Total(USD)<br>
+                            <span class="text-secondary">Brief information</span>
+                        </div>
+                        <div class="col-2 mt-3">$20</div>
+                    </div>
+                </div>
+                <div class="container bg-secondary-subtle mt-3 p-3 rounded-4">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo Code">
+                        <span class="input-group-text bg-secondary">Redeem</span>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

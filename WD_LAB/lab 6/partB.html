@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ab{
+            background-color: azure;
+            float: right;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        @media (max-width: 830px){
+            .body .alumini img{
+                height: 30px;
+                width: 30px ;
+            }
+            .options{
+                background-color: azure;
+                float: right;
+                margin-top: 5px;
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+            .logo img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+        @media (max-width: 490px){
+            .logo img{
+                height: 40px;
+                width: 40px;
+            }
+            .body .sidebar{
+                width: 100%;
+            }
+            .body .alumini{
+                float: none;
+                margin-top: 0px;
+                width: 100%;
+            }
+            .body .alumini img{
+                height: 20px;
+                width: 20px ;
+            }
+        }
+        @media (max-width: 415px){
+            .body{
+                width: 100%;
+            }
+            .sidebar{
+                margin-top: 10px;
+                width: 70% !important;
+            }
+            .alumini{
+                float: none;
+                margin-top: 10px;
+                width: 100% !important;
+            }
+            .alumini img{
+                width: 20px;
+                height: 20px;
+            }
+            .footer{
+                margin-top: 450px !important;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="header" style="width: 100%; height: 15vh;">
+        <div class="logo" style="  height: 70px; width: 70px; float: left;">
+            <img src="./windows logo.png" width="70px" height="70px">
+        </div>
+        <div class="options">
+            <a class="ab">LOGIN</a>
+            <a class="ab">CONTACT</a>
+            <a class="ab">ABOUT</a>
+            <a class="ab">HOME</a>
+        </div>
+    </div>
+
+    <div class="body" style="width: 100%; height: 70vh;">
+        <div class="sidebar" style="background-color: red;float: left; width: 20%; height: 100%;">
+           <div style="width: 100%; margin-bottom: 30px; border: 0.5mm solid yellow; height: 10%;" align="center"><a href="#">Sidebar</a></div>
+           <div style="width: 100%; margin-bottom: 30px; border: 0.5mm solid yellow; height: 10%;" align="center"><a href="#">Home</a></div>
+           <div style="width: 100%; margin-bottom: 30px; border: 0.5mm solid yellow; height: 10%;" align="center"><a href="#">Placement</a></div>
+           <div style="width: 100%; margin-bottom: 30px; border: 0.5mm solid yellow; height: 10%;" align="center"><a href="#">Recruitment</a></div>
+           <div style="width: 100%; margin-bottom: 30px; border: 0.5mm solid yellow; height: 10%;" align="center"><a href="#">Faculty</a></div>
+           <div style="width: 100%; margin-bottom: 30px; border: 0.5mm solid yellow; height: 10%;" align="center"><a href="#">News</a></div>
+        </div>
+        <div class="alumini" style="margin-left: 10px; margin-right: 10px; float: right; height:100%; width: 75%;">
+            <div style="float: left; margin-left: 10px;"><img src="desert.jpeg" height="60px" width="60px">
+            <p>
+                Arjun bala<br>BE ,M.tech CSE
+            </p></div>
+            <div style="float: left; margin-left: 15px;"><img src="./wires.jpeg" height="60px" width="60px">
+            <p>
+                Firox Shreyasiya<br>BE ,ME
+            </p></div>
+            <div style="float: left; margin-left: 15px; clear: left;"><img src="./wires.jpeg" height="60px" width="60px">
+                <p>
+                    Harsh Kansagra<br><small>L$t pvt ltd.</small><br><small>4.5 lac</small>
+                </p></div>
+                <div style="float: left; margin-left: 15px;"><img src="./citcuit.jpg" height="60px" width="60px">
+                    <p>
+                        Shyam Kantesariya<br><small>Tata consultancy ltd</small><br><small>3.2 lac</small>
+                    </p></div>
+                <div style="float: left; margin-left: 15px;"><img src="./citcuit.jpg" height="60px" width="60px">
+                        <p>
+                            Jeet Dhamesha<br><small>Reliance Industry ltd</small><br><small>5.0 lac</small>
+                     </p></div>
+                <div style="float: left; margin-left: 15px;"><img src="./phone.webp" height="60px" width="60px">
+                        <p>
+                            Harsh Maniar<br><small>Reliance Industry ltd</small><br><small>5.0lac</small>
+                     </p></div>
+                <div style="float: left; margin-left: 15px;"><img src="./wiresss.jpg" height="60px" width="60px">
+                        <p>
+                            Aazad Dabhi<br><small>BSNL</small><br><small>5.5 lac</small>
+                     </p></div>
+        </div>
+    </div>
+    <div class="footer" style="width: 100%; height: 40px; background-color: blue;">
+            <h3><address align="center">@Darsan-University  Rajkot</address></h3>
+    </div>
+</body>
+</html>
